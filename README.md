@@ -1,1 +1,3 @@
-# KnR_The_C_Programming_Language_2Ed_Solutions
+# The C Programming Language by K & R (K&R C)
+
+My solutions to the exercises in the book "The C Programming Language" by K & R (K&R C), with working examples stored in [Repl.it](https://www.repl.it)
