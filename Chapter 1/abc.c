@@ -1,5 +1,5 @@
 /*
-Kerrigham & Ritchie:The C Programming Language 2ed.
+Kernigham & Ritchie: The C Programming Language 2ed. ANSI C.
 001 | Pag 010 | Chapter 1 | hello world | helloWorld.c
 by: ekenmer
 =======================================
