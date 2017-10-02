@@ -1,6 +1,6 @@
 /* solution by OOQQ
  * The C Programming Language 2ed. ANSIC
- * chapter01, page012, program005, fahToCelsiusImproved.c
+ * chapter01, page012, program005, fahToCelsiusMK2.c
  * -------------------------------------
  * prints a Fahrenheit-Celsius table
  * for fahr = 0, 20 ... 300, floating-point version

@@ -10,9 +10,9 @@
 int main(void) {
 	int tab = 0, blank = 0 newline = 0;
 
-	printf("Write some stuff (-1 to terminate):");
+	printf("Write some stuff (# to terminate):");
 
-	while ((c = getchar()) != EOF) {
+	while ((c = getchar()) != '#') {
 		if (c == '\t') {
 			tab++;
 		} else if (c == ' ') {

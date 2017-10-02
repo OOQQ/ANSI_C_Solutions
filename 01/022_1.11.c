@@ -8,9 +8,8 @@
 #include <stdio.h>
 
 int main(void) {
-	int c, nl, nw, nc, state;
 
-	printf("%d %d %d \n", nl, nw, nc);
+	/* wat */
 
 return 0;
 }

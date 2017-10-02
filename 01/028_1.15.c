@@ -1,18 +1,13 @@
 /* solution by OOQQ
  * The C Programming Language 2ed. ANSIc
- * chapter01, page017, program012, copyInputToOutputMK2.c
+ * chapter01, page027, program028, 1.15.c
  * -------------------------------------
- * copy input to output 2st version
+ * rewrite the temp conversion program to use a function for conversion
  */
 
 #include <stdio.h>
 
 int main(void) {
-	int c;
-
-	while ((c getchar()) != EOF) {
-		putchar(c);
-	}
 
 return 0;
 }

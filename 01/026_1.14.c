@@ -1,8 +1,9 @@
 /* solution by OOQQ
  * The C Programming Language 2ed. ANSIc
- * chapter01, page022, program024, arrays.c
+ * chapter01, page024, program026, 1.14.c
  * -------------------------------------
- * counts digits, whitespace, & other using an array
+ * write a program to print a histogram of the frequencies of different chars
+ * in its input
  */
 
 #include <stdio.h>

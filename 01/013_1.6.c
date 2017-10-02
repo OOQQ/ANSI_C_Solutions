@@ -9,7 +9,7 @@
 
 int main(void) {
 
-	/* wat? */
+	/* wat? 0 for false, everythign else for true */
 
 return 0;
 }

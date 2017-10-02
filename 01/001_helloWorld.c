@@ -2,7 +2,7 @@
  * The C Programming Language 2ed. ANSIC
  * chapter01, page006, program001, helloWorld.c
  * -------------------------------------
- * in C the program to print "hello world" is
+ * the C program to print "hello world"
  */
 
 #include <stdio.h>

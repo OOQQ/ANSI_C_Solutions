@@ -10,6 +10,7 @@
 int main(void) {
 	char c = EOF;
 
+	/* value is -1! */
 	printf("Value of EOF in C89 is: %d", c);
 
 return 0;

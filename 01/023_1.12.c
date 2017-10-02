@@ -8,8 +8,23 @@
 #include <stdio.h>
 
 int main(void) {
+	char c;
 
-	printf("%d %d %d \n", nl, nw, nc);
+	printf("Write a line of text:");
+
+	do {
+		c = getchar();
+
+		if (c == ' ') {
+			putchar('\n');
+			continue;
+		}
+
+		putchar(c);
+
+	} while (c != '\n');
+
+	printf("\n");
 
 return 0;
 }

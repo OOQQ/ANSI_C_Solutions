@@ -2,7 +2,7 @@
  * The C Programming Language 2ed. ansiC
  * chapter01, page013, program008, fahToCelsiusForLoop.c
  * -------------------------------------
- * print a Fahrenheit-Celsius table
+ * print a Fahrenheit-Celsius table with a for loop
  */
 
 #include <stdio.h>

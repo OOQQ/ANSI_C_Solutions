@@ -1,8 +1,8 @@
 /* solution by OOQQ
  * The C Programming Language 2ed. ANSIc
- * chapter01, page015, program010, fahToCelsiusWithDefine.c
+ * chapter01, page015, program010, fahCelsiusWithDefine.c
  * -------------------------------------
- * print Fahrenheith-Celsius table
+ * print Fahrenheith-Celsius table with #define preprocessor macros
  */
 
 #include <stdio.h>
