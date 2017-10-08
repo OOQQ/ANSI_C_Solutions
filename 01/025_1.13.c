@@ -1,38 +1,32 @@
 /* solution by OOQQ
- * The C Programming Language 2ed. ANSIc
+ * he C Programming Language 2ed. ANSIc
  * chapter01, page024, program025, 1.13.c
  * -------------------------------------
  * write a program to print a histogram of the lenghts of words in its input,
  * horizontal = ez, vertical = op
+ *
+ * + # # # # # # #
+ * X # # # # #            100%
+ * 9 # # #                 90%
+ * 8 # # # # # #           80%         # #
+ * 7 # # # # # # #         70%       # # # #       #
+ * 6 # # # # # # # #       60%     # # # # # #     #
+ * 5 # # # # # # # #       50% # # # # # # # #   # #
+ * 4 # # # # # # #         40% # # # # # # # #   # #
+ * 3 # # # # # #           30% # # # # # # # # # # #
+ * 2 # # # # #             20% # # # # # # # # # # #
+ * 1 # # # # #             10% # # # # # # # # # # #
+ *   1 2 3 4 5 6 7 8 9 X%      1 2 3 4 5 6 7 8 9 X +
  */
 
 #include <stdio.h>
 
 int main(void) {
-	int c, i, nwhite, nother;
-	int ndigit[10];
+	int i;
 
-	nwhite = nother = 0;
-	for (i = 0; i < 10; i++) {
-		ndigit[i] = 0;
-	}
+	printf("Write a line of text:");
 
-	while ((c = getchar()) != EOF) {
-		if (c >= '0' && c <= '9') {
-			++ndigit[c-'0'];
-		} else if ( c == ' ' || c == '\n' || c == '\t') {
-			++nwhite;
-		} else {
-			++nother;
-		}
-
-	printf("digits =");
-
-	for (i = 0; i < 10; i++) {
-		printf(" %d", ndigit[i]);
-	}
-
-	printf(", whitespace =) %d, other = %d\n", nwhite, nother);
+	printf("#");
 
 return 0;
 }

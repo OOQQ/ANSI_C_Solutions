@@ -4,35 +4,30 @@
  * -------------------------------------
  * write a program to print a histogram of the frequencies of different chars
  * in its input
+ *
+ * 100%
+ *	90%
+ *	80%  #  # #   #       ##
+ *  70% ### # ##  ##    #####     #
+ *  60% ### ##### ##    ######    #
+ *  50% ### #########  #######    #
+ *  40% ### #########  #######    #
+ *  30% ############## #######    ##    #
+ *  20% ############## #######    ##    ##
+ *  10% ###################### #  ## # ####   #
+ *      abcdefghijklmnopqrstuvwxyz ,.1234567890
  */
 
 #include <stdio.h>
 
+#define MAXARRAY 40
+
 int main(void) {
-	int c, i, nwhite, nother;
-	int ndigit[10];
+	int i;
 
-	nwhite = nother = 0;
-	for (i = 0; i < 10; i++) {
-		ndigit[i] = 0;
-	}
+	printf("Write a line of text:");
 
-	while ((c = getchar()) != EOF) {
-		if (c >= '0' && c <= '9') {
-			++ndigit[c-'0'];
-		} else if ( c == ' ' || c == '\n' || c == '\t') {
-			++nwhite;
-		} else {
-			++nother;
-		}
-
-	printf("digits =");
-
-	for (i = 0; i < 10; i++) {
-		printf(" %d", ndigit[i]);
-	}
-
-	printf(", whitespace =) %d, other = %d\n", nwhite, nother);
+	printf("#");
 
 return 0;
 }
